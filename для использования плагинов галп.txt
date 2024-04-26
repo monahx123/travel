@@ -1,0 +1,11 @@
+В файле галпфайл в скриптах прописать следующее
+
+
+function scripts() {
+  return src([
+    'node_modules/swiper/swiper-bundle.js',
+    'app/js/main.js'
+  ])
+
+В файле scss прописать импорт следующий 
+@import '../../node_modules/swiper/swiper-bundle';
