@@ -9,6 +9,7 @@ const clean = require('gulp-clean');
 
 function scripts() {
   return src([
+    'node_modules/slick-slider/slick/slick.js',
     'app/js/main.js'
   ])
     .pipe(concat('main.min.js'))
